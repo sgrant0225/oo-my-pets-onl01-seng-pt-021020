@@ -48,6 +48,8 @@ class Owner
   end 
   
   def buy_dog(dogs_name)
-   
+    dogs_name.each do |c|
+      binding.pry
+    end
   end  
 end
