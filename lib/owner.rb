@@ -68,7 +68,7 @@ class Owner
       pets.each do |value|
       value.mood = "nervous"
       binding.pry
-        end
+        
       end
     end
   end  
