@@ -68,6 +68,7 @@ class Owner
       pets.each do |value|
       if value.mood = "nervous"
         return nil
+        end
       end
     end
   end  
