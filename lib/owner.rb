@@ -53,7 +53,7 @@ class Owner
   
   def walk_dogs
     Dog.all.each do |doggie|
-      binding.pry
+      doogie
     end
   end  
 end
