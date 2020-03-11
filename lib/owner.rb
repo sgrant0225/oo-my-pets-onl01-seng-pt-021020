@@ -66,7 +66,8 @@ class Owner
   def sell_pets
     [dogs, cats].each do |pets|
       pets.each do |value|
-        value.mood = "nervous"
+      if value.mood = "nervous"
+        return nil
       end
     end
   end  
