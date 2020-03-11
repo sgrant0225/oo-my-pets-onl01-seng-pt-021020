@@ -62,4 +62,6 @@ class Owner
     hungry_cats.mood = "happy"
     end
   end  
+  
+  def sell_pets
 end
