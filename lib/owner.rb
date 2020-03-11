@@ -52,6 +52,7 @@ class Owner
   end  
   
   def walk_dogs
-    Dog.mood
+    Dog.all.each do |doggie|
+      binding.pry
   end  
 end
