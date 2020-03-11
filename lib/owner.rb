@@ -44,7 +44,7 @@ class Owner
   end 
   
   def buy_cat(cats_name)
-    Cat.all.select do |c|
+    Cat.all.each do |c|
       binding.pry
     end
   end  
