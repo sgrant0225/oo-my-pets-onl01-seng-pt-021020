@@ -64,6 +64,6 @@ class Owner
   end  
   
   def sell_pets
-    
+    [Dog, Cat].each do 
   end  
 end
