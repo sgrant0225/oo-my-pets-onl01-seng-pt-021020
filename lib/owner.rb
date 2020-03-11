@@ -53,7 +53,7 @@ class Owner
   
   def walk_dogs
     Dog.all.each do |doggie|
-      doggie.mood == "happy"
+      doggie.mood == mood
     end
   end  
 end
