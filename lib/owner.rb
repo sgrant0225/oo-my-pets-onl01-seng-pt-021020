@@ -51,7 +51,7 @@ class Owner
     Dog.new(dogs_name, self)
   end  
   
-  def walks_dogs
+  def walk_dogs
   
   end  
 end
