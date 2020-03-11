@@ -66,8 +66,8 @@ class Owner
   def sell_pets
     [dogs, cats].each do |pets|
       pets.each do |value|
-      if value.mood = "nervous"
-        return nil
+      value.mood = "nervous"
+      binding.pry
         end
       end
     end
