@@ -45,7 +45,7 @@ class Owner
   
   def buy_cat(cats_name)
     Cat.all.each do |c|
-      
+      c.name
     end
   end  
 end
